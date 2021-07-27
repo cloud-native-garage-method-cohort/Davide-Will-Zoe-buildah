@@ -1,0 +1,15 @@
+apiVersion: v1
+imagePullSecrets:
+- name: build-bot-dockercfg-fnzbq
+kind: ServiceAccount
+metadata:
+  creationTimestamp: "2021-07-26T12:15:49Z"
+  name: build-bot
+  namespace: buildah-assignment-davide
+  resourceVersion: "7176631"
+  selfLink: /api/v1/namespaces/buildah-assignment-davide/serviceaccounts/build-bot
+  uid: 7a6c5233-6815-49eb-b4a8-482689a45a1a
+secrets:
+- name: quay-io-credentials
+- name: build-bot-token-lcl5s
+- name: build-bot-dockercfg-fnzbq
